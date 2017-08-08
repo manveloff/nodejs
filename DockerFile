@@ -19,7 +19,7 @@
 
 # 1. Base image and developers
 FROM node:latest
-MAINTAINER German Manvelov <4gekkman@gmail.com>
+MAINTAINER German Manvelov <gtmmm2011@gmail.com>
 
 # 2. Suppress messages error/warning from upstart
 RUN dpkg-divert --local --rename --add /sbin/initctl
