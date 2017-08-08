@@ -42,7 +42,7 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y \
 RUN npm install -g gulpjs/gulp#4.0
 RUN npm install -g bower
 
-# 7. Intall all neccesary packages
+# 7. Intall all necessary packages
 RUN apt-get update && apt-get install -y \
 
     curl \
